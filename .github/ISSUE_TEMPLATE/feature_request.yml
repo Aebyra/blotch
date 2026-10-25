@@ -1,0 +1,14 @@
+name: Feature request
+description: An idea for Blotch
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like the notch to do, and when?
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you do this today?
