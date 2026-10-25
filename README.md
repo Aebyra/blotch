@@ -99,6 +99,10 @@ Macs without a notch (or external displays) get a small virtual notch at the top
 
 Found a bug or have an idea? [Open an issue](https://github.com/aebyra/blotch/issues/new/choose). Include your Blotch version (Settings → About), macOS version and Mac model.
 
+## Support
+
+Blotch is free and independently developed. Support on **[Ko-fi](https://ko-fi.com/aebyra)** helps fund updates and new features.
+
 ## Releases
 
 This repository holds Blotch's releases, changelog and issue tracker; the source code isn't public. See [CHANGELOG.md](CHANGELOG.md) for what changed.

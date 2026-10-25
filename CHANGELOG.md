@@ -2,6 +2,13 @@
 
 Each release is tagged `vX.Y.Z` on GitHub; its notes are copied from here.
 
+## 1.0.1
+
+- The notch no longer pops open again when you move the pointer away to close it.
+- A Support Blotch button in Settings → About (Ko-fi).
+- Fixed a rare crash when a terminal that started Blotch was closed.
+- No false "freeze" reports while an update or error dialog is waiting for a click.
+
 ## 1.0.0
 
 First public release.
