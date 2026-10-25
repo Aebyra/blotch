@@ -2,13 +2,6 @@
 
 Each release is tagged `vX.Y.Z` on GitHub; its notes are copied from here.
 
-## 1.0.1
-
-- The notch no longer pops open again when you move the pointer away to close it.
-- A Support Blotch button in Settings → About (Ko-fi).
-- Fixed a rare crash when a terminal that started Blotch was closed.
-- No false "freeze" reports while an update or error dialog is waiting for a click.
-
 ## 1.0.0
 
 First public release.
@@ -23,3 +16,4 @@ First public release.
 - **Privacy monitor** for the microphone and camera; the notch hides itself from screen sharing.
 - **Process watcher** for long-running tools like `xcodebuild`, `cargo` and `ffmpeg`.
 - Updates itself (Check for Updates… in the notch menu and Settings → About); `blotch uninstall` cleans up hooks and the CLI link.
+- Support Blotch on Ko-fi from Settings → About.
