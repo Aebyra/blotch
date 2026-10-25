@@ -2,7 +2,7 @@
 
 **Your MacBook's notch, put to work.** Black + notch.
 
-Blotch is a tiny native macOS app (~13 MB at rest, ~20 MB once the notch has been opened; ~0% idle CPU) that turns the notch into:
+Blotch is a native macOS app that turns the notch into a live status light, a drop zone for quick actions, and a place where your scripts, terminals and coding agents can reach you. It gives you:
 
 1. **A notch anything can talk to.** Scripts, terminals, CI and Shortcuts push live activities with the `blotch` CLI, a Unix socket, or `blotch://` URLs.
 2. **A status glow.** A thin outline around the notch with four meanings (Running, Done, Needs you, Failed), each in a color you can set.
@@ -94,8 +94,6 @@ Macs without a notch (or external displays) get a small virtual notch at the top
 | Widgets | Now Playing (Music, Spotify), Downloads (folder, skip small files), connection & battery alerts (VPN, low-battery level), clipboard tools, and Calendar (lead time, video calls only, which calendars) |
 | Privacy | mic/camera monitor (shown on hover; optional pop-open and glow), hide Blotch from screen sharing |
 | About | version, the notch app's live memory use, CLI status, on-device AI status (low-key, at the bottom), file locations, reset all settings |
-
-Settings opens in its own short-lived process, so the notch app never carries the window's ~40 MB of framework caches.
 
 ## Feedback
 
