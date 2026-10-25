@@ -33,8 +33,11 @@ open "blotch://glow?glow=red&id=ci&ttl=0"   # from Shortcuts, Raycast, anything
 ## Install
 
 ```bash
+brew trust aebyra/tap
 brew install --cask aebyra/tap/blotch
 ```
+
+`brew trust` is needed once: Homebrew 7 only loads casks from taps you've trusted.
 
 Or download **Blotch.dmg** from [Releases](https://github.com/aebyra/blotch/releases/latest), open it and drag Blotch to Applications. Blotch updates itself.
 
