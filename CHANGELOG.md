@@ -2,6 +2,12 @@
 
 Each release is tagged `vX.Y.Z` on GitHub; its notes are copied from here.
 
+## 1.1.0
+
+- **Glows fade if you don't look.** A glow nobody hovers now fades after 10 minutes, and its message waits in the notch until you do. Running tasks and questions keep glowing. Change the time, or turn it off, in Settings → General → Notifications.
+- **Focus and Do Not Disturb.** In System Settings → Focus → (a Focus) → Focus Filters, add Blotch and pick *Quiet* (no pop-ups or sounds) or *Still* (no glow or sneak peek either). Questions from coding agents still pop open.
+- **Lighter on battery.** The glow pulse and the music bars draw at most 30 frames a second, and the glow is no longer redrawn from scratch while your screen is recorded or shared.
+
 ## 1.0.0
 
 First public release.

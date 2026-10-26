@@ -95,7 +95,8 @@ Macs without a notch (or external displays) get a small virtual notch at the top
 - Hover any icon in the notch to see what it does.
 - **Hover** the notch to open it. **Right-click** for the menu, or click ⚙︎ in the panel for **Settings** (also `open blotch://settings`, or open Blotch again from Spotlight/Applications, which is the way back when the notch is hidden).
 - **Drag** something onto the notch, then drop it on an action tile.
-- Items that glow stay until you've hovered and moved away; everything else fades after 8s (changeable in Settings).
+- Items that glow stay until you've hovered and moved away. If you don't look, the glow fades after 10 min and the message waits in the notch (Settings → General → Notifications). Everything else fades after 8s.
+- **Do Not Disturb and Focus:** in System Settings → Focus → (a Focus) → Focus Filters, add **Blotch** and pick *Quiet* (no pop-ups or sounds) or *Still* (no glow either). Questions from coding agents still pop open.
 
 ## Settings
 
