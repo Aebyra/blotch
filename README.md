@@ -2,6 +2,14 @@
 
 **Your MacBook's notch, put to work.** Black + notch.
 
+<p align="center">
+  <img src="media/agents.gif" width="800" alt="Claude Code asks to run git push; the notch glows yellow with Allow and Deny, then turns green with Claude finished, +120 −30, 6 files">
+</p>
+
+<p align="center">
+  <a href="https://aebyra.com/blotch#film"><b>Watch the 74-second video</b></a> · <a href="https://aebyra.com/blotch">aebyra.com/blotch</a> · <a href="#install">Install</a>
+</p>
+
 Blotch is a native macOS app that turns the notch into a live status light, a drop zone for quick actions, and a place where your scripts, terminals and coding agents can reach you. It gives you:
 
 1. **A notch anything can talk to.** Scripts, terminals, CI and Shortcuts push live activities with the `blotch` CLI, a Unix socket, or `blotch://` URLs.
@@ -29,6 +37,10 @@ blotch "Deploy finished" -c done   # quick notification + glow until you hover
 eval "$(blotch shell-init zsh)"     # notify whenever any command takes > 10s
 open "blotch://glow?glow=red&id=ci&ttl=0"   # from Shortcuts, Raycast, anything
 ```
+
+| Know when anything finishes | Drop a file to convert or clean it up | Record your screen from the notch |
+|---|---|---|
+| <img src="media/status-glow.gif" alt="blotch run npm test: the notch pulses blue, then opens green with npm test finished in 12s"> | <img src="media/drop-actions.gif" alt="A screenshot dropped on the notch's actions, then Background removed"> | <img src="media/recording.gif" alt="Record from the notch, then Recording saved with Make GIF, Compress and AirDrop"> |
 
 ## Install
 
@@ -97,6 +109,29 @@ Macs without a notch (or external displays) get a small virtual notch at the top
 | Widgets | Now Playing (Music, Spotify), Downloads (folder, skip small files), connection & battery alerts (VPN, low-battery level), clipboard tools, and Calendar (lead time, video calls only, which calendars) |
 | Privacy | mic/camera monitor (shown on hover; optional pop-open and glow), hide Blotch from screen sharing |
 | About | version, the notch app's live memory use, CLI status, on-device AI status (low-key, at the bottom), file locations, reset all settings |
+
+## FAQ
+
+**Is it really free?**
+Yes. No account, no ads, no trial. Blotch is independently made; if it earns a place on your Mac, a tip on [Ko-fi](https://ko-fi.com/aebyra) funds the next update.
+
+**Is it open source?**
+No. The source is private; releases, the changelog and the issue tracker are public here.
+
+**What does it send over the internet?**
+Only what's listed under [Privacy](#privacy): the update check, Spotify album art, a web page you drop on a link action, and links you open. No analytics, no accounts, no servers of its own.
+
+**Which permissions does it need?**
+None to start. It asks only when you first use a feature that needs one; see [Permissions](#permissions).
+
+**How is it different from other notch apps?**
+It has the media controls and file shelf you'd expect, but it's built around being told things: a `blotch` command, a Unix socket and `blotch://` links any script can use, Claude Code and Codex hooks with Allow and Deny right in the notch, and a glow you can read without looking at it.
+
+**Why does Homebrew need `brew trust` first?**
+Homebrew 7 only loads casks from taps you've trusted. It's a one-time step for `aebyra/tap`. Or download the DMG instead; Blotch updates itself either way.
+
+**My Mac has no notch.**
+Macs without one, and external displays, get a small virtual notch at the top center. See [Requirements](#requirements).
 
 ## Feedback
 
